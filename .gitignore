@@ -1,0 +1,52 @@
+# ── Data (large / raw / sensitive) ──────────────────────────────────
+data/raw/
+data/processed/
+data/climatology/
+data/argo/validation_profiles.nc
+data/demo_cache/
+model/checkpoints/
+
+# ── Environment & secrets ────────────────────────────────────────────
+.env
+.env.local
+infra/.env
+*.secret
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ── Node / Frontend ──────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# ── Jupyter ──────────────────────────────────────────────────────────
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Logs / temp ──────────────────────────────────────────────────────
+*.log
+tmp/
+temp/
